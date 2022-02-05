@@ -8,30 +8,331 @@ This section contains lecture notes from the Fall 2000 version of the course. Th
 
 Notes for Lecture 24 are not available.
 
-| LEC # | TOPICS | LECTURE NOTES |
-| --- | --- | --- |
-| 1 | Introduction and lumped abstraction | ([PDF]({{< baseurl >}}/resources/6002_l1)) |
-| 2 | Basic circuit analysis method | ([PDF]({{< baseurl >}}/resources/6002_l2)) |
-| 3 | Superposition, Thévenin and Norton | ([PDF]({{< baseurl >}}/resources/6002_l3)) |
-| 4 | The digital abstraction | ([PDF]({{< baseurl >}}/resources/6002_l4)) |
-| 5 | Inside the digital gate | ([PDF]({{< baseurl >}}/resources/6002_l5)) |
-| 6 | Nonlinear analysis | ([PDF]({{< baseurl >}}/resources/6002_l6)) |
-| 7 | Incremental analysis | ([PDF]({{< baseurl >}}/resources/6002_l7)) |
-| 8 | Dependent sources and amplifiers | ([PDF]({{< baseurl >}}/resources/6002_l8)) |
-| 9 | MOSFET amplifier large signal analysis |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/6002_l9)) {{< br >}}{{< br >}}  |
-| 10 | Amplifiers - small signal model | ([PDF]({{< baseurl >}}/resources/6002_l10)) |
-| 11 | Small signal circuits | ([PDF]({{< baseurl >}}/resources/6002_l11)) |
-| 12 | Capacitors and first-order systems | ([PDF]({{< baseurl >}}/resources/6002_l12)) |
-| 13 | Digital circuit speed | ([PDF]({{< baseurl >}}/resources/6002_l13)) |
-| 14 | State and memory | ([PDF]({{< baseurl >}}/resources/6002_l14)) |
-| 15 | Second-order systems |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/6002_l15)) {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/6002_l15b)) {{< br >}}{{< br >}}  |
-| 16 | Sinusoidal steady state | ([PDF]({{< baseurl >}}/resources/6002_l16)) |
-| 17 | The impedance model | ([PDF]({{< baseurl >}}/resources/6002_l17)) |
-| 18 | Filters | ([PDF]({{< baseurl >}}/resources/6002_l18)) |
-| 19 | The operational amplifier abstraction | ([PDF]({{< baseurl >}}/resources/6002_l19)) |
-| 20 | Operational amplifier circuits | ([PDF]({{< baseurl >}}/resources/6002_l20)) |
-| 21 | Op-amps positive feedback | ([PDF]({{< baseurl >}}/resources/6002_l21)) |
-| 22 | Energy and power | ([PDF]({{< baseurl >}}/resources/6002_l22)) |
-| 23 | Energy, CMOS | ([PDF]({{< baseurl >}}/resources/6002_l23)) |
-| 24 | Power conversion circuits and diodes | &nbsp; |
-| 25 | Violating the abstraction barrier | ([PDF]({{< baseurl >}}/resources/6002_l25))
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE NOTES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction and lumped abstraction
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l1))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Basic circuit analysis method
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l2))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Superposition, Thévenin and Norton
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l3))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+The digital abstraction
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l4))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Inside the digital gate
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l5))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Nonlinear analysis
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l6))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Incremental analysis
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l7))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Dependent sources and amplifiers
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l8))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+MOSFET amplifier large signal analysis
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/6002_l9))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Amplifiers - small signal model
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Small signal circuits
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Capacitors and first-order systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Digital circuit speed
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+State and memory
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l14))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Second-order systems
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/6002_l15))
+
+([PDF]({{< baseurl >}}/resources/6002_l15b))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Sinusoidal steady state
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l16))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+The impedance model
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l17))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Filters
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l18))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+The operational amplifier abstraction
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l19))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Operational amplifier circuits
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l20))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Op-amps positive feedback
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l21))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Energy and power
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l22))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Energy, CMOS
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l23))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Power conversion circuits and diodes
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Violating the abstraction barrier
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/6002_l25))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

@@ -6,58 +6,681 @@ uid: 00ece47d-b258-a468-e01f-c481743295a3
 
 The calendar provides information on the course's lecture (L), recitation (R), and quiz (Q) sessions.
 
-| SES # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| L1 | Lumped abstraction relationship to physics, KVL, KCL | Lab 0 out |
-| R1 | KVL, KCL resistive network analysis | &nbsp; |
-| L2 | KVL, KCL example, nodal analysis | Homework 1 out |
-| R2 | Nodal analysis, examples | &nbsp; |
-| L3 | Linearity, superposition, Thevenin's equivalences | Lab 0 due 1 day before L3 |
-| R3 | Thevenin and Norton equivalences | &nbsp; |
-| L4 | Digital abstraction | Homework 2 out |
-| R4 | Boolean logic, comb. gates review, examples | Homework 1 due |
-| R4a | Digital logic, gates, examples | Lab 1 out |
-| L5 | MOS switch, S and SR model, MOS gate design | Homework 3 out |
-| R5 | MOS switch resistor (SR) model (cont.) | Homework 2 due |
-| L6 | Nonlinear resistors, networks | &nbsp; |
-| R6 | Static power in dig ckts, nonlinear resistors, examples | &nbsp; |
-| L7 | Nonlinear resistors, small signal analysis | Homework 4 out |
-| R7 | Nonlinear resistors, small signal examples | Homework 3 due |
-| L8 | Dependent sources, analog amplification | &nbsp; |
-| R8 | Dependent sources, amplifiers, operating point analysis, biasing | Lab 1 due |
-| L9 | MOS SCS model and MOS amplifier | Homework 5 out |
-| R9 | Review MOS SCS model, MOS ckts, MOS amplifier | Homework 4 due |
-| Q1 | Quiz 1 (evening) | &nbsp; |
-| R9a | MOS amplifier review | &nbsp; |
-| L10 | Amplifier large signal analysis | Homework 6 out |
-| R10 | Review 3-term device representations, amplifier input-output curves | Homework 5 due |
-| L11 | Amplifier small signal analysis | Lab 2 out |
-| R11 | Amplifier small signal analysis examples | &nbsp; |
-| L12 | Amplifier small signal circuit models | Homework 7 out |
-| R12 | Amplifier small signal circuit models and analysis examples | Homework 6 due |
-| L13 | Capacitors, first order circuits, examples | &nbsp; |
-| R13 | Inductors and their physics, first order step response, examples | &nbsp; |
-| L14 | Intuitive analysis of first order systems, examples | Homework 8 out |
-| R14 | Ramp, step, impulse, superposition | Homework 7 due |
-| L15 | Digital memory, state | Lab 3 out |
-| R15 | Impulse response examples, digital memory arrays | Lab 2 due |
-| L16 | Transients in second order systems | Homework 9 out |
-| R16 |  {{< br >}}{{< br >}} First order examples {{< br >}}{{< br >}} Second order examples {{< br >}}{{< br >}}  | Homework 8 due |
-| R17 |  {{< br >}}{{< br >}} Second order examples {{< br >}}{{< br >}} Second order systems with damping {{< br >}}{{< br >}}  | &nbsp; |
-| L17 | Second order systems with damping, intuitive analysis | Homework 10 out |
-| R18 |  {{< br >}}{{< br >}} Damped second order system examples {{< br >}}{{< br >}} Preview of frequency response {{< br >}}{{< br >}}  | Homework 9 due |
-| L18 | Sinusoidal steady state analysis, frequency response | Lab 4 out |
-| Q2 | Quiz 2 (evening) | &nbsp; |
-| L19 | Impedance methods | Homework 11/12 out |
-| R19 | Review of impedance methods and examples | Homework 10 due |
-| L20 | Filters, Q factor, radio tuner | &nbsp; |
-| R20 | Time and frequency domain responses, Q | Lab 3 due |
-| L21 | Op-amp abstraction, concept of feedback, noninverting amplifier | &nbsp; |
-| R21 | Op-amp abstraction, examples and review, inverting amplifier | &nbsp; |
-| L22 | Multiple inputs and superposition, integrators, differentiators | &nbsp; |
-| R22 | First and second order op-amp filters | &nbsp; |
-| L23 | Op-amp abstraction, feedback, stability, oscillators, clocking | &nbsp; |
-| R23 | Special op-amp circuits |  {{< br >}}{{< br >}} Lab 4 due {{< br >}}{{< br >}} Homework 11/12 due {{< br >}}{{< br >}}  |
-| L24 | Energy and power | &nbsp; |
-| R24 | Examples, CMOS, energy and power | &nbsp; |
-| L25 | Breaking the abstraction barrier |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+Lumped abstraction relationship to physics, KVL, KCL
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 0 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R1
+{{< tdclose >}}
+{{< tdopen >}}
+KVL, KCL resistive network analysis
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+KVL, KCL example, nodal analysis
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R2
+{{< tdclose >}}
+{{< tdopen >}}
+Nodal analysis, examples
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+Linearity, superposition, Thevenin's equivalences
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 0 due 1 day before L3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R3
+{{< tdclose >}}
+{{< tdopen >}}
+Thevenin and Norton equivalences
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+Digital abstraction
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 2 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R4
+{{< tdclose >}}
+{{< tdopen >}}
+Boolean logic, comb. gates review, examples
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R4a
+{{< tdclose >}}
+{{< tdopen >}}
+Digital logic, gates, examples
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+MOS switch, S and SR model, MOS gate design
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 3 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R5
+{{< tdclose >}}
+{{< tdopen >}}
+MOS switch resistor (SR) model (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+Nonlinear resistors, networks
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R6
+{{< tdclose >}}
+{{< tdopen >}}
+Static power in dig ckts, nonlinear resistors, examples
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+Nonlinear resistors, small signal analysis
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 4 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R7
+{{< tdclose >}}
+{{< tdopen >}}
+Nonlinear resistors, small signal examples
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+Dependent sources, analog amplification
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R8
+{{< tdclose >}}
+{{< tdopen >}}
+Dependent sources, amplifiers, operating point analysis, biasing
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+MOS SCS model and MOS amplifier
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 5 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R9
+{{< tdclose >}}
+{{< tdopen >}}
+Review MOS SCS model, MOS ckts, MOS amplifier
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Q1
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1 (evening)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R9a
+{{< tdclose >}}
+{{< tdopen >}}
+MOS amplifier review
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+Amplifier large signal analysis
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 6 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R10
+{{< tdclose >}}
+{{< tdopen >}}
+Review 3-term device representations, amplifier input-output curves
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 5 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+Amplifier small signal analysis
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 2 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R11
+{{< tdclose >}}
+{{< tdopen >}}
+Amplifier small signal analysis examples
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+Amplifier small signal circuit models
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 7 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R12
+{{< tdclose >}}
+{{< tdopen >}}
+Amplifier small signal circuit models and analysis examples
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 6 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+Capacitors, first order circuits, examples
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R13
+{{< tdclose >}}
+{{< tdopen >}}
+Inductors and their physics, first order step response, examples
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+Intuitive analysis of first order systems, examples
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 8 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R14
+{{< tdclose >}}
+{{< tdopen >}}
+Ramp, step, impulse, superposition
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 7 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+Digital memory, state
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 3 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R15
+{{< tdclose >}}
+{{< tdopen >}}
+Impulse response examples, digital memory arrays
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+Transients in second order systems
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 9 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R16
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+First order examples
+
+Second order examples
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 8 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R17
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Second order examples
+
+Second order systems with damping
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+Second order systems with damping, intuitive analysis
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 10 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R18
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Damped second order system examples
+
+Preview of frequency response
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 9 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+Sinusoidal steady state analysis, frequency response
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Q2
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2 (evening)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L19
+{{< tdclose >}}
+{{< tdopen >}}
+Impedance methods
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 11/12 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R19
+{{< tdclose >}}
+{{< tdopen >}}
+Review of impedance methods and examples
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 10 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L20
+{{< tdclose >}}
+{{< tdopen >}}
+Filters, Q factor, radio tuner
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R20
+{{< tdclose >}}
+{{< tdopen >}}
+Time and frequency domain responses, Q
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L21
+{{< tdclose >}}
+{{< tdopen >}}
+Op-amp abstraction, concept of feedback, noninverting amplifier
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R21
+{{< tdclose >}}
+{{< tdopen >}}
+Op-amp abstraction, examples and review, inverting amplifier
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L22
+{{< tdclose >}}
+{{< tdopen >}}
+Multiple inputs and superposition, integrators, differentiators
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R22
+{{< tdclose >}}
+{{< tdopen >}}
+First and second order op-amp filters
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L23
+{{< tdclose >}}
+{{< tdopen >}}
+Op-amp abstraction, feedback, stability, oscillators, clocking
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R23
+{{< tdclose >}}
+{{< tdopen >}}
+Special op-amp circuits
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lab 4 due
+
+Homework 11/12 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L24
+{{< tdclose >}}
+{{< tdopen >}}
+Energy and power
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R24
+{{< tdclose >}}
+{{< tdopen >}}
+Examples, CMOS, energy and power
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L25
+{{< tdclose >}}
+{{< tdopen >}}
+Breaking the abstraction barrier
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
