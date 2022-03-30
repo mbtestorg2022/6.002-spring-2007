@@ -6,6 +6,7 @@ description: This resource contains a demo showing the effects of delay (the spe
   (also at the input).
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-002-circuits-and-electronics-spring-2007/d501e3923e26066ec89d99152544fbba_demo_19b.pdf
 file_type: application/pdf
+parent_uid: 9b4a2ba7-a556-b234-8b0c-3f1bdd4fa8ab
 resourcetype: Document
 title: demo_19b.pdf
 uid: d501e392-3e26-066e-c89d-99152544fbba

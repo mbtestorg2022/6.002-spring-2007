@@ -4,6 +4,7 @@ description: This resource contains a demo which shows the amplification of smal
   waveforms using a MOSFET, along with the limitations of such an amplifier.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-002-circuits-and-electronics-spring-2007/3869d6abe7f912065ec6b99767bfb9ee_demo_09.pdf
 file_type: application/pdf
+parent_uid: 9b4a2ba7-a556-b234-8b0c-3f1bdd4fa8ab
 resourcetype: Document
 title: demo_09.pdf
 uid: 3869d6ab-e7f9-1206-5ec6-b99767bfb9ee

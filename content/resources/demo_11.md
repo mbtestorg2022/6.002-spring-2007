@@ -4,6 +4,7 @@ description: This resource contains a demo which examines gate delay using two c
   MOSFET inverters, and also an RC circuit model.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-002-circuits-and-electronics-spring-2007/ea27f12a0b4fbeb27b179af572b97daa_demo_11.pdf
 file_type: application/pdf
+parent_uid: 9b4a2ba7-a556-b234-8b0c-3f1bdd4fa8ab
 resourcetype: Document
 title: demo_11.pdf
 uid: ea27f12a-0b4f-beb2-7b17-9af572b97daa
